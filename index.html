@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Fetching articles - Profil Software recruitment task</title>
+
+  <meta name="description" content="JS recruitment task.">
+  <meta name="author" content="Jakub Żuchowski">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header>
+    <div id="headerBox">
+        <h1>Articles</h1>
+        <div id="counter"></div>
+    </div>
+  </header>
+  <main>
+    <section>
+        <article>
+            <div id="toAppend"></div>
+        </article>
+    </section>
+  </main>
+  <footer>
+    <div id="foot">
+        
+        <input type="text" id="input" value="15"> <br />
+        <button type="button" id="limit" onclick="getValueInput()">Click to generate articles</button>
+        <a href="library.html"><button type="button" id="buttonLink">Go to library</button></a>
+    </div>
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+</html>

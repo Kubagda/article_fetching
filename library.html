@@ -1,0 +1,45 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Library - Profil Software recruitment task</title>
+
+  <meta name="description" content="JS recruitment task.">
+  <meta name="author" content="Jakub Żuchowski">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+  <header>
+    <div id="buttonsHeader">
+        <h1>Library</h1>
+        <button type="button" onclick="alAsc(articles)" class="sortButton">Sort alphabetically ascending</button>
+        <button type="button" onclick="alDes(articles)" class="sortButton">Sort alphabetically decending</button>
+        <button type="button" onclick="pubAsc(articles)" class="sortButton">Sort by date of publication ascending</button>
+        <button type="button" onclick="pubDes(articles)" class="sortButton">Sort by date of publication decending</button>
+    </div>
+  </header>
+  <main>
+    <section>
+        <article>
+            <div id="toAppend"></div>
+        </article>
+    </section>
+  </main>
+  <footer>
+    <div id="foot">
+        <a href="index.html"><button type="button" id="buttonLink">Go to main page</button></a>
+    </div>
+  </footer>
+  <script src="js/library.js"></script>
+</body>
+</html>
